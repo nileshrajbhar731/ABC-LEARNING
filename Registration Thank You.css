@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_div{
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    position: fixed;
+}
+
+.logo_div img{
+    width: 10%;
+height: 20vh;
+
+
+
+}
+.logo_div a{
+    text-decoration: none;
+}
+
+.logo_div h2{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+    font-size: 40px;
+    
+}
+.logo_div h2::first-letter{
+    color: rgb(208, 255, 0);
+   
+}
+.logo_div span{
+    color: rgb(0, 255, 170);
+    
+}
+
+
+.logo_div p{
+    
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 9.5%;
+    font-size: 20px;
+}
+.logo_div p::first-letter{
+    color: rgb(255, 196, 0);
+
+}
+.navbar_div{
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar_div ul{
+  position: absolute;
+  top: 38%;
+right: 1%;
+font-size: 1.5rem;
+    
+}
+.navbar_div li{
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.navbar_div a{
+    color: white;
+    text-decoration: none;
+   
+   
+}
+.navbar_div a:hover{
+    border: 1px solid white transparent;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* section */
+.section{
+    padding-top: 10%;
+    padding-bottom: 1%;
+    background: linear-gradient(0deg, rgba(34,195,193,1) 0%, rgba(45,88,253,1) 100%);
+}
+.section img{
+    margin-left: 35%;
+    width: 40%;
+    
+}
+.section h3{
+    text-align: center;
+}
+button{
+   margin-left: 48%;
+   
+   font-size: 25px;
+   border-radius: 8px;
+   background-color: yellow;
+  
+   
+}
+button:hover{
+    background-color: orange;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    height: 36vh;
+  
+}
+.logo a{
+color: blanchedalmond;
+}
+.logo h4{
+position: absolute;
+top: 103%;
+left: 8%;
+font-size: 2rem;
+}
+.logo h5{
+    position: absolute;
+top: 107%;
+left: 8%;
+font-size: 1rem;
+}
+.logo img{
+    width: 10%;
+
+}
+.logo p{
+    position: absolute;
+    top:112%;
+}
+.contact{
+    color: #fff;
+    position: absolute;
+    top: 101%;
+    left: 35%;
+    
+}
+.sitemap{
+    color: #fff;
+    position: absolute;
+    top: 101%;
+    left: 70%;
+}
+.sitemap a,ul{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+.sitemap a:hover{
+    color: orange;
+}
+.left{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+.social{
+ 
+    position: absolute;
+    top: 120%;
+}
+.social li{
+    display: inline-block;
+}
+
+
+.fa {
+padding: 7px;
+font-size: 27px;
+width: 50px;
+height: 38px;
+text-align: center;
+text-decoration: none;
+margin: 2px 2px;
+margin-top: -30%;
+border-radius: 500px;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.fa-twitter {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+
+.fa-instagram {
+    border: solid white;
+color: white;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+
+.fa-linkedin {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+hr{
+  
+    position: absolute;
+    top: 125%;
+/* left: 19%; */
+   
+    width: 100%;
+
+}
+.last_footer{
+    color: #fff;
+}
+.last_footer h3{
+    position: absolute;
+    top: 125%;
+    left: 30%;
+}
+.last_footer ul{
+position: absolute;
+top: 128%;
+left: 35%;
+
+
+}
+.last_footer a:hover{
+    color: rgb(147, 255, 6);
+}
+.last_footer li{
+    display: inline-block;
+   
+ 
+  
+}
+.last_footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.h1_div a{
+    color: rgb(16, 255, 255);
+}
+.h1_div a:hover{
+    color: rgb(69, 248, 69);
+}
+
+/* @media */
+@media only screen and (min-width: 1200px){
+
+} 

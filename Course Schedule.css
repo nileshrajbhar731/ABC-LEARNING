@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_div{
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    position: fixed;
+    z-index: 50;
+}
+
+.logo_div img{
+    width: 10%;
+height: 20vh;
+
+
+
+}
+.logo_div a{
+    text-decoration: none;
+}
+
+.logo_div h2{
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+    font-size: 40px;
+    
+}
+.logo_div h2::first-letter{
+    color: rgb(208, 255, 0);
+   
+}
+.logo_div span{
+    color: rgb(0, 255, 170);
+    
+}
+
+
+.logo_div p{
+    
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 9.5%;
+    font-size: 20px;
+}
+.logo_div p::first-letter{
+    color: rgb(255, 196, 0);
+
+}
+.navbar_div{
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar_div ul{
+  position: absolute;
+  top: 38%;
+right: 1%;
+font-size: 1.5rem;
+    
+}
+.navbar_div li{
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.navbar_div a{
+    color: white;
+    text-decoration: none;
+   
+   
+}
+.navbar_div a:hover{
+    border: 1px solid white transparent;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+#tabs li{
+  display: inline-block;
+  margin-left: 3.5%;
+  margin-top: 2.5%;
+
+  color: rgb(0, 0, 0);
+  border:  solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+#tabs ul{
+  font-size: 2rem;
+  padding-left: 5%;
+  margin-bottom: 0.8%;
+
+}
+#tabs{
+  
+  border: solid;
+  background-color: aqua;
+}
+#tabs a{
+  text-decoration: none;
+  color: #000;
+  
+}
+#tabs li:hover{
+  background-color: orange;
+}
+section{
+    padding-top: 10%;
+}
+#tabs{
+    padding-top: 8%;
+}
+
+section.content{
+    background:rgb(255, 255, 255);
+   
+  }
+  .content
+  { 
+     width: 100%;
+     background:rgba(0,0,0,0.9);
+     height: 92vh;
+     background-size: cover;
+     background-position: center;
+  }
+  .scroll{
+      
+      background-color: rgba(255, 255, 255,0.6);
+      color: #000000;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      width: 1200px;
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      display: inline-block;
+      overflow: scroll;
+      border-left: 15px solid white; 
+      border-top: 15px solid white; 
+  }
+  .scroll h1,
+  .scroll h2,
+  .scroll h3
+  {
+      font-size: 40px;
+      color: #002699;
+  }
+  
+  table.blueTable {
+    border: 2px solid #FFFFFF;
+    background-color: #00b7ff;
+    width: 100%;
+    height: 203px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 10px solid #000000;
+    padding: 9px 3px;
+  }
+  table.blueTable tbody td {
+    font-size: 18px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.blueTable thead {
+    background: #196737;
+    background: -moz-linear-gradient(top, #528d69 0%, #30764b 66%, #196737 100%);
+    background: -webkit-linear-gradient(top, #528d69 0%, #30764b 66%, #196737 100%);
+    background: linear-gradient(to bottom, #528d69 0%, #30764b 66%, #196737 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #0aefff;
+    background: -moz-linear-gradient(top, #12dfd4 0%, #4a783d 66%, #366928 100%);
+    background: -webkit-linear-gradient(top, #688e5e 0%, #4a783d 66%, #366928 100%);
+    background: linear-gradient(to bottom, #688e5e 0%, #4a783d 66%, #366928 100%);
+    border-top: 0px solid #444444;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  section{
+    background: rgb(255, 255, 255);
+  }
+
+
+
+  /* footer */
+
+.footer{
+  background-color: black;
+  color: blanchedalmond;
+  height: 40vh;
+}
+.logo a{
+color: blanchedalmond;
+}
+.logo h4{
+position: absolute;
+top: 130%;
+left: 8%;
+font-size: 2rem;
+}
+.logo h5{
+  position: absolute;
+top: 135%;
+left: 8%;
+font-size: 1rem;
+}
+.logo img{
+  width: 10%;
+}
+.logo p{
+  position: absolute;
+  top:139%;
+}
+.contact{
+  color: #fff;
+  position: absolute;
+  top: 130%;
+  left: 35%;
+  
+}
+.contact p{
+  margin: 5px;
+}
+.sitemap{
+  color: #fff;
+  position: absolute;
+  top: 130%;
+  left: 70%;
+}
+.sitemap a,ul{
+  text-decoration: none;
+  color: rgb(45, 127, 250);
+  list-style: none;
+}
+.sitemap a:hover{
+  color: orange;
+}
+.left{
+  position: absolute;
+  top: 35%;
+  left: 65%;
+}
+.social{
+
+  position: absolute;
+  top: 147%;
+}
+.social li{
+  display: inline-block;
+}
+
+
+.fa {
+padding: 7px;
+font-size: 27px;
+width: 50px;
+height: 38px;
+text-align: center;
+text-decoration: none;
+margin: 2px 2px;
+margin-top: -30%;
+border-radius: 500px;
+}
+
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.fa-twitter {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+
+.fa-instagram {
+  border: solid white;
+color: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+
+.fa-linkedin {
+border: solid white;
+color: white;
+box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+hr{
+
+  position: absolute;
+  top: 152%;
+/* left: 19%; */
+ 
+  width: 100%;
+
+}
+.last_footer{
+  color: #fff;
+}
+.last_footer h3{
+  position: absolute;
+  top: 154%;
+  left: 30%;
+}
+.last_footer ul{
+position: absolute;
+top: 158%;
+left: 35%;
+
+
+}
+.last_footer li{
+  display: inline-block;
+ 
+
+
+}
+.last_footer a{
+  color: rgb(241, 245, 42);
+  text-decoration: none;
+  margin-left: 5px;
+}
+.last_footer a:hover{
+  color: rgb(147, 255, 6);
+}
+
+.h1_div a{
+  color: rgb(16, 255, 255);
+}
+.h1_div a:hover{
+  color: rgb(69, 248, 69);
+}
+

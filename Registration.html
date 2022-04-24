@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Registration.css">
+<link rel="stylesheet" href="validation page.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="header_div">
+        <div class="logo_div">
+            <a href="index.html">
+            <img src="img/book-abstract-hand-education-logo-vector-17029707-removebg-preview.png" alt="Abc Lerning Center">
+            <h2>AB<span>C</span></h2>
+            <p>Lerning Center</p>
+        </a>
+        </div>
+        <div class="navbar_div">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About US</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Privacy.html">Privacy Policy</a></li>
+                <li><a href="Sitemap.html">Sitemap</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- register page  -->
+    <section class="content">
+        <div class="containerform">
+          <div class="main">
+            <h2>SIGN UP</h2>
+          </div>
+          <form id="form" class="form" method="POST">
+            <div class="form-control">
+              <label for="username">Username</label>
+              <input type="text" placeholder="Nilesh545@abc.com" id="username" name="username" required/>
+             
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <label for="username">Email</label>
+              <input type="email" placeholder="abc123@gmail.com" id="email" name="email"  required/>
+             
+              <small>Error message</small>
+            </div>
+<div >
+  <label for="age"> Date of Birth:</label>
+  <fieldset class="form-control" >
+      <select id="age" name="user_date" style="color: black" required>
+      
+        <optgroup label="" style="color: black">
+          <option disabled="disabled" selected="selected">Date</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">7</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="7">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+         </optgroup>
+        
+       </select>
+       
+       <select id ="Month" name="user_month" style="color: black" required>
+         <optgroup label="" style="color: black">
+          <option disabled="disabled" selected="selected">Month</option>
+          <option value="January">January</option>
+          <option value="Feburary">Feburary</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+         </optgroup>
+       
+       </select>
+      
+         <select id ="Year" name="user_year" style="color: black" required>
+         <optgroup label="" style="color: black">
+          <option disabled="disabled" selected="selected">Year</option>
+          <option value="1990">1990</option>
+          <option value="1991">1991</option>
+          <option value="1992">1992</option>
+          <option value="1993">1993</option>
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+         </optgroup>
+         
+       </select>
+       <small>Error message</small>
+      </fieldset>
+     
+</div>
+        
+              <div class="form-control">
+              <label for="Mobile">Mobile Number</label>
+              <input type="text" placeholder="+911234567890" id="mobile" name="phone" required />
+             
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <label for="username">Password</label>
+              <input type="password" placeholder="Password" id="password" name="password" required/>
+             
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <label for="username">Confirm Password </label>
+              <input type="password" placeholder="Confirm Password" id="password2" required/>
+             
+              <small>Error message</small>
+            </div>
+             <div class="form-control">
+             <label for="course">Courses</label>
+                <select id="course" name="Courses" style="color: black" required>
+                  <optgroup label="Courses" >
+                    <option disabled="disabled" selected="selected">--Choose Courses--</option>
+                    <option value="HTML" style="color: black">HTML</option>
+                    <option value="CSS" style="color: black">CSS</option>
+                    <option value="JavaScript" style="color: black">JavaScript</option>
+                    <option value="PHP" style="color: black">PHP</option>
+                    <option value="AJAX" style="color: black">AJAX</option>
+                    <option value="jQuery" style="color: black">jQuery</option>
+                    <option value="JAVA" style="color: black">JAVA</option>
+                    <option value="C+" style="color: black">C+</option>
+                    <option value="C#" style="color: black">C#</option>
+                   </optgroup>
+                 
+                   
+                </select>
+                <small>Error message</small>
+                </div><br><br>
+                <h2 style="font-size: 20px;">First SAVE the information that you have entered, then click on<br>Sign Up</h2>
+            <button id="regbutton" name="regbutton" class="inline-flex text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-white rounded text-lg" >Submit</button>
+            <!--<a class="text-green-500 inline-flex items-center mt-3 sm:text-1xl text-3xl" href="thankYou.html">Proceed
+                  <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" class="w-5 h-5 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>-->
+        
+        
+            <script type="text/javascript">
+              const regbutton = document.getElementById("regbutton");
+              const username = document.getElementById("username");
+              const email = document.getElementById("email");
+              const password = document.getElementById("password");
+              const password2 = document.getElementById("password2");
+              const mobile = document.getElementById("mobile");
+              const course = document.getElementById("course");
+              const age  = document.getElementById("age");
+              const Month  = document.getElementById("Month");
+              const Year  = document.getElementById("Year");
+              
+        var Valid = false;
+        regbutton.addEventListener("click", (e) => {
+          e.preventDefault();
+          
+        var isValid = checkInputs()
+      
+          if(isValid){
+            $.ajax(
+                  {
+                    type: "POST",
+                    url: "action.php",
+                    data : jQuery('#form').serialize(),
+                    success: function (result) {
+                       window.location.replace('Registration Thank You.html');
+                 
+                    }
+                  });
+          
+          }
+        });
+        
+
+
+        function checkInputs() {
+          let isValid =[]
+          // trim to remove the whitespaces
+          const usernameValue = username.value.trim();
+          const emailValue = email.value.trim();
+          const mobileValue = mobile.value.trim();
+          const passwordValue = password.value.trim();
+          const password2Value = password2.value.trim();
+          const courseValue = course.value.trim();
+          const ageValue  = age.value.trim();
+          const MonthValue  = Month.value.trim();
+          const YearValue  = Year.value.trim();
+        
+          if (usernameValue === "") {
+            isValid.push(false)
+            setErrorFor(username, "Username cannot be blank");
+          } else if (!User(usernameValue)) {
+            isValid.push(false)
+            setErrorFor(username, "Not a vaild username at least uppercase & lowercase letter, digit and 9 characters long for Eg: username@abc.com");
+          } else {
+            setSuccessFor(username);
+          }
+        
+          if (emailValue === "") {
+            isValid.push(false)
+            setErrorFor(email, "Email cannot be blank");
+          } else if (!isEmail(emailValue)) {
+            isValid.push(false)
+            setErrorFor(email, "Not a valid email(for example: Abc@gmail.com)");
+          } else {
+            setSuccessFor(email);
+          }
+        
+           if (mobileValue === "") {
+            isValid.push(false)
+            setErrorFor(mobile, "Mobile Number cannot be blank");
+          } else if (!Phone(mobileValue)) {
+            isValid.push(false)
+            setErrorFor(mobile, "Not a valid Mobile Number (for example: +911234567890)");
+          } else {
+            setSuccessFor(mobile);
+          }
+        
+        
+          if (passwordValue === "") {
+            isValid.push(false)
+            setErrorFor(password, "Password cannot be blank");
+          } else if (!strongPass(passwordValue)) {
+            isValid.push(false)
+            setErrorFor(password, "Not a valid password (for example ni@545)");
+          } else {
+            setSuccessFor(password);
+          }
+        
+          if (password2Value === "") {
+            isValid.push(false)
+            setErrorFor(password2, "Password2 cannot be blank");
+          } else if (passwordValue !== password2Value) {
+            isValid.push(false)
+            setErrorFor(password2, "Passwords does not match");
+          } else { 
+            setSuccessFor(password2);
+          }
+
+          if (courseValue === "--Choose Courses--") {
+            isValid.push(false)
+            
+            setErrorFor(course, "Course cannot be blank");
+          } else {
+            setSuccessFor(course);
+          }
+         
+
+          if (ageValue === "Data") {
+            isValid.push(false)
+            setErrorFor(age, "");
+          } else {
+            setSuccessFor(age);
+          }
+          
+
+          if (MonthValue === "Month") {
+            isValid.push(false)
+            setErrorFor(Month, "");
+          } else {
+            setSuccessFor(Month);
+          }
+
+          if (YearValue === "Year") {
+            isValid.push(false)
+            setErrorFor(Year, "Date of Birth cannot be blank");
+          } else {
+            setSuccessFor(Year);
+          }
+
+
+          return isValid.length === 0
+        }
+         
+        
+        
+        function setErrorFor(input, message) {
+          const formControl = input.parentElement;
+          const small = formControl.querySelector("small");
+          formControl.className = "form-control error";
+          small.innerText = message;
+          valid = false;
+        }
+        
+        function setSuccessFor(input) {
+          const formControl = input.parentElement;
+          formControl.className = "form-control success";
+          valid = true;
+        }
+  
+        function User(username) {
+  return /^[A-Z]{1}[a-z]{5}[0-9]{3}[@][a-z]{3}[.][a-z]{3}$/.test(
+    username
+  );
+}
+
+        function isEmail(email) {
+          return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{3}))$/.test(
+            email
+          );    
+              
+        }
+
+
+        function Phone(username) {
+  return /^[+]91[0-9][0-9]{9}$/.test(
+    username
+  );
+}
+
+        function strongPass(password) {
+  return /^[a-z]{2}[@][0-9]{3}$/.test(
+    password
+  );
+
+}
+     
+        
+            </script>
+          </form>
+        </div>
+        </section>
+  
+
+    <!-- footer -->
+<div class="footer">
+    <div class="logo_1">
+        <a href="index.html">
+            <img src="img/book-abstract-hand-education-logo-vector-17029707-removebg-preview.png" alt="ABC"><h4>ABC</h4>
+            <h5>learnig Center</h5>
+           </a>
+           <p>ABC Learning Center is an IT Training institute <br>that conducts courses like Programming in Java etc.</p>
+       </div>
+       
+    </div>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Email: Info.ALC@gmail.com</p>
+        <p>Phone: +(88) 111 555 666</p>
+        <p>40 Baria Sreet 133/2 New York City, United States</p>
+    </div>
+
+    <div class="sitemap">
+        <h1>sitemap</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="Contact Us.html">Contact</a></li>
+            <li><a href="">Features</a></li>
+           </ul>
+           <ul class="left">
+            <li><a href="Course Details .html">Courses</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">FAQs</a></li>
+        </ul>
+       
+    </div>
+
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/" target="blank"><i  class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a></li>
+         </ul>
+    </div>
+<hr>
+    <div class="last_footer">
+      <h3>Copyright ©2021 All rights reserved | This template is made with  by <span class="h1_div"><a href="https://www.lithan.com/" target="blank" >Lithan</a></span></h3>
+        <ul>
+            <li><a href="">Copyright notification</a></li>
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
